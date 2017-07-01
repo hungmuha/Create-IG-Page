@@ -1,3 +1,7 @@
+body{
+	font-family: 'Montserrat', sans-serif;
+
+}
 #backTop{
 	background: linear-gradient(to bottom,#587E9E, #456B8C);
 	background-size: cover;
@@ -18,8 +22,8 @@
 }
 #phone{
 
-	margin-top: 7%;
-	margin-left: 10%;
+	margin-top: 5%;
+	margin-left: 15%;
 	display: inline-block;
 	float:left;
 }
@@ -30,6 +34,27 @@
 #content{
 	float:right;
 	display:inline;
-	margin-right:30%;
-	margin-top:7%;
+	margin-right:20%;
+	margin-top:5%;
+}
+#logo{
+	float:left;
+}
+}
+#home{
+	position: absolute;
+	
+}
+#loginB{
+	position: relative;
+	background: linear-gradient(to bottom,#7093AF, #4C7698);
+	color:white;
+	margin-left: 80px;
+	margin-top:15px;
+	display: inline-block;
+	letter-spacing: .01em;
+	border: 1px solid #456B8C;
+	border-radius: 5px;
+	padding: 5px 12px;
+	box-shadow: 0 0 4px #3f5f7f;
 }
