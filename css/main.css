@@ -2,6 +2,7 @@ body{
 	font-family: 'Montserrat', sans-serif;
 
 }
+/*for background*/
 #backTop{
 	background: linear-gradient(to bottom,#587E9E, #456B8C);
 	background-size: cover;
@@ -17,9 +18,11 @@ body{
 	background-color: white;
 	position:absolute;
 }
+/*for content of page*/
 #mainD{
 	z-index: 0;
 }
+/* side phone pic */
 #phone{
 
 	margin-top: 7%;
@@ -31,19 +34,24 @@ body{
 	width: 300px;
 	height: 100%;
 }
+/*content box next to phone pic*/
 #content{
 	float:right;
 	display:inline;
 	margin-right:15%;
 	margin-top:7%;
-	width:40%;
+	width:42%;
 }
+/*logo box*/
 #logo{
 	float:left;
 }
-}
+
 #home{
 	position: absolute;
+	left:5px;
+	top:4px;
+	margin-left: 0;
 	
 }
 #loginB{
@@ -56,9 +64,10 @@ body{
 	letter-spacing: .01em;
 	border: 1px solid #456B8C;
 	border-radius: 5px;
-	padding: 5px 12px;
+	padding: 9px 15px 7px 40px;
 	box-shadow: 0 0 4px #3f5f7f;
 }
+/*content box under logo and log in*/
 #mainContent{
 	margin-top: 40px;
 	background: url(../images/frame.png) no-repeat ;
@@ -71,10 +80,20 @@ body{
 .contentBody{
 	font-size: 15px;
 }
-#contentFoot{
-
-}
+/*content box footer*/
 .cFoot{
 	display: inline-block;
 	margin-left: 40px;
+}
+/*footer of the page*/
+#pageFooter{
+	margin-left: 170px;
+	text-align: center;
+	display: inline-block;
+}
+ul li{
+	font-size: 12px;
+	margin: 5px 15px;
+	list-style: none;
+	display: inline-block;
 }
