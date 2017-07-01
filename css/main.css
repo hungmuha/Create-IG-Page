@@ -56,6 +56,7 @@ body{
 }
 #loginB{
 	position: relative;
+	font-weight: 500;
 	background: linear-gradient(to bottom,#7093AF, #4C7698);
 	color:white;
 	margin-left: 80px;
@@ -96,4 +97,10 @@ ul li{
 	margin: 5px 15px;
 	list-style: none;
 	display: inline-block;
+	color: #456B8C;
+	font-weight:500;
+}
+#copyright{
+	color:#B0B0B1;
+	font-weight:500;
 }
